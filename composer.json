@@ -1,0 +1,29 @@
+{
+    "name": "samuraee/easycurl",
+    "type": "library",
+    "description": "Super easy and flexible wrapper class for PHP cURL extension",
+    "keywords": ["curl","http","util","helper", "http-client"],
+    "homepage": "https://github.com/samuraee/EasyCurl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aboozar Ghaffari",
+            "email": "aboozar.ghf@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "aboozar.ghf@gmail.com",
+        "issues": "https://github.com/samuraee/EasyCurl/issues",
+        "source": "https://github.com/samuraee/EasyCurl"
+    },
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Samuraee\\EasyCurl\\": "src/"
+        }
+    }
+}
